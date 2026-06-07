@@ -11,6 +11,7 @@ class Wic < Formula
   def install
     libexec.install "wic"
     (libexec/"bin").install "bin/wic"
+    chmod 0755, libexec/"bin/wic"
     bin.install_symlink libexec/"bin/wic"
     pkgshare.install "wic.sh"
   end
