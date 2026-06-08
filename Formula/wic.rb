@@ -2,7 +2,7 @@ class Wic < Formula
   desc "Assistente de terminal local: linguagem natural -> comando de shell"
   homepage "https://github.com/gabrielfranca95/wic"
   url "https://github.com/gabrielfranca95/wic/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "957b07a32f6b1bbad1dc495ae0060a6c0ff4d46f4544ad3cecb8bfed7aae40db"
   license "MIT"
 
   depends_on "ollama"
