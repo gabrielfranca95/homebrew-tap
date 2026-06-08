@@ -1,16 +1,16 @@
-# Fórmula do Homebrew para o wic (v2).
+# Fórmula do Homebrew para o wic.
 #
-# Vai para o SEU tap: um repo no GitHub chamado `homebrew-wic`, neste caminho:
-#   homebrew-wic/Formula/wic.rb
-# Depois o usuário instala com:
-#   brew install SEU_USUARIO/wic/wic
+# Esta é a CÓPIA DE REFERÊNCIA. A fórmula que vale fica no repo do tap:
+#   github.com/gabrielfranca95/homebrew-tap  ->  Formula/wic.rb
+# O usuário instala com:
+#   brew install gabrielfranca95/tap/wic
 #
-# Antes de publicar, preencha url + sha256 (veja v2/packaging/homebrew/README.md).
+# A cada release nova, atualize `url` (a tag) e `sha256` aqui e no tap.
 class Wic < Formula
   desc "Assistente de terminal local: linguagem natural -> comando de shell"
-  homepage "https://github.com/SEU_USUARIO/wic"
-  url "https://github.com/SEU_USUARIO/wic/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "PREENCHA_O_SHA256_DO_TARBALL"
+  homepage "https://github.com/gabrielfranca95/wic"
+  url "https://github.com/gabrielfranca95/wic/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "0dc9a9736d2bde7c351944485280edab2aa2a24b5a15ac3d210e010b52b34d4c"
   license "MIT"
 
   # Dependências: o brew garante que existam antes de instalar o wic.
